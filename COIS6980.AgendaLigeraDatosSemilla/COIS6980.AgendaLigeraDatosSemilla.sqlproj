@@ -58,4 +58,10 @@
   <ItemGroup>
     <Folder Include="Properties" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Roles.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="SeedData.PostDeploymentScript.sql" />
+  </ItemGroup>
 </Project>

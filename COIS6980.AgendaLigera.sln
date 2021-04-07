@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.1000
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "COIS6980.AgendaLigera", "COIS6980.AgendaLigera\COIS6980.AgendaLigera.sqlproj", "{784A1FE8-8FC4-4EB1-8EC8-2E6891F27DC7}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "COIS6980.AgendaLigeraDatosSemilla", "COIS6980.AgendaLigeraDatosSemilla\COIS6980.AgendaLigeraDatosSemilla.sqlproj", "{4C0C6323-B4F2-49BB-90C7-A6974D3670F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,12 @@ Global
 		{784A1FE8-8FC4-4EB1-8EC8-2E6891F27DC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{784A1FE8-8FC4-4EB1-8EC8-2E6891F27DC7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{784A1FE8-8FC4-4EB1-8EC8-2E6891F27DC7}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{4C0C6323-B4F2-49BB-90C7-A6974D3670F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C0C6323-B4F2-49BB-90C7-A6974D3670F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C0C6323-B4F2-49BB-90C7-A6974D3670F1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4C0C6323-B4F2-49BB-90C7-A6974D3670F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C0C6323-B4F2-49BB-90C7-A6974D3670F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C0C6323-B4F2-49BB-90C7-A6974D3670F1}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
