@@ -58,6 +58,8 @@
   <ItemGroup>
     <Folder Include="Properties" />
     <Folder Include="Authentication" />
+    <Folder Include="App" />
+    <Folder Include="Schema" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Authentication\AspNetRoles.sql" />
@@ -67,5 +69,12 @@
     <Build Include="Authentication\AspNetUserRoles.sql" />
     <Build Include="Authentication\AspNetUserLogins.sql" />
     <Build Include="Authentication\AspNetUserClaims.sql" />
+    <Build Include="App\Employee.sql" />
+    <Build Include="Schema\AppSchema.sql" />
+    <Build Include="App\ServiceRecipient.sql" />
+    <Build Include="App\Service.sql" />
+    <Build Include="App\ServiceSchedule.sql" />
+    <Build Include="App\AppointmentStatus.sql" />
+    <Build Include="App\Appointment.sql" />
   </ItemGroup>
 </Project>
