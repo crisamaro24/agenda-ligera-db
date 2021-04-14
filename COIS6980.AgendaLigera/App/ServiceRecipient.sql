@@ -6,5 +6,6 @@
 	[LastName] VARCHAR(200) NULL,
 	[IsActive] BIT DEFAULT(1) NOT NULL,
 	[IsDeleted] BIT DEFAULT(0) NOT NULL,
+	[CreatedDate] DATETIME2 DEFAULT GETUTCDATE() NOT NULL,
 	CONSTRAINT [FK_ServiceRecipient_AspNetUsers] FOREIGN KEY ([UserId]) REFERENCES [dbo].[AspNetUsers]([Id])
 )
