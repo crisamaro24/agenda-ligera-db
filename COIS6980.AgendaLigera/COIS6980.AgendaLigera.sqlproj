@@ -74,7 +74,6 @@
     <Build Include="App\ServiceRecipient.sql" />
     <Build Include="App\Service.sql" />
     <Build Include="App\ServiceSchedule.sql" />
-    <Build Include="App\AppointmentStatus.sql" />
     <Build Include="App\Appointment.sql" />
   </ItemGroup>
 </Project>
